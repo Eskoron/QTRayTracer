@@ -1,12 +1,12 @@
 #ifndef RMATH_H
 #define RMATH_H
 #include <math.h>
-
+#define PI 3.1415926535897932f
 
 struct RMath{
 
     //PI
-    static const float  PI = 3.1415926535897932f;
+    //static const float PI = 3.1415926535897932f;
     static const float INV_PI = 0.31830988618f;
     static const float HALF_PI = 1.57079632679f;
 

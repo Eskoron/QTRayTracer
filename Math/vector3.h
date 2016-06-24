@@ -34,11 +34,12 @@ struct Vector3{
     }
 
     //calculates normal without checking for 0
-    Vector3& unsafeNormal(){
+    inline Vector3& UnsafeNormal(){
         float InvertedLength = RMath::Invert(Size());
         X /= InvertedLength;
         Y /= InvertedLength;
         Z /= InvertedLength;
+        return *this;
     }
 
 

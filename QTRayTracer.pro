@@ -30,6 +30,12 @@ HEADERS  += \
     Camera/perspectivecamera.h \
     Renderer/ray.h \
     Renderer/raycaster.h \
-    Math/matrix44.h
+    Math/matrix44.h \
+    Math/color.h \
+    Renderer/intersectinfo.h \
+    Math/rotationmatrix.h \
+    Math/translationmatrix.h \
+    Math/scalematrix.h \
+    Math/translationrotationmatrix.h
 
 FORMS    +=

@@ -1,0 +1,6 @@
+#ifndef TRANSLATIONROTATIONMATRIX_H
+#define TRANSLATIONROTATIONMATRIX_H
+class TranslationRotationMatrix:Matrix44{
+
+}
+#endif // TRANSLATIONROTATIONMATRIX_H

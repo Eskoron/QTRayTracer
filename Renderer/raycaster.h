@@ -3,5 +3,7 @@
 struct RayCaster{
 
 
+    char* TraceImage(int width, int heigth);
+
 }
 #endif // RAYCASTER_H
